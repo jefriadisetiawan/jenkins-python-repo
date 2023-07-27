@@ -13,7 +13,7 @@ pipeline {
             }
             stage('Jalankan script') { 
                 steps {
-                    sh 'python3 python_script.py'
+                    sh 'python3 dihibrida.py'
                 }
             }
         }

@@ -1,6 +1,6 @@
 import random
 
-a=input('masukkan banyak persilangan : ')
+a=2543998
 banyak=int(a)
 
 sifat1=['BB','Bb','bB','bb']

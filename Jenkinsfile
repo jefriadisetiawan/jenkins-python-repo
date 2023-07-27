@@ -13,7 +13,7 @@ pipeline {
             }
             stage('Jalankan script') { 
                 steps {
-                    echo 'python3 python_script.py'
+                    sh 'python3 python_script.py'
                 }
             }
         }

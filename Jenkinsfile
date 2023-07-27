@@ -13,7 +13,7 @@ pipeline {
             }
             stage('Jalankan script') { 
                 steps {
-                    echo 'ini menjalankan script'
+                    echo 'python3 python_script.py'
                 }
             }
         }
